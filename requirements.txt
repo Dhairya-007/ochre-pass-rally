@@ -1,0 +1,15 @@
+# Ochre Pass Rally - all free, open-source dependencies.
+#
+#   panda3d           the 3D engine (BSD licence)
+#   panda3d-simplepbr physically based rendering, shadows, HDR sky lighting (BSD)
+#   panda3d-gltf      loads the .glb models (BSD)
+#   numpy             terrain, physics fields, particles (BSD)
+#   Pillow            banners, minimap, text rendering (HPND)
+#   certifi           CA certificates for the one-off asset download (MPL 2.0)
+
+panda3d==1.10.16
+panda3d-simplepbr==0.13.1
+panda3d-gltf==1.3.0
+numpy>=1.24,<3
+Pillow>=9.0
+certifi

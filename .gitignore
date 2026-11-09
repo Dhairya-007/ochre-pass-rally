@@ -1,0 +1,17 @@
+# Free assets are downloaded on first run by tools/fetch_assets.py (~105 MB).
+# They are not redistributed here; CREDITS.md and the licence texts are
+# written alongside them at download time.
+assets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Settings, career saves and caches live in the user data folder, but ignore
+# any that end up here from an in-tree run.
+*.log
+.DS_Store
